@@ -1,0 +1,109 @@
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    background-color: darkgrey;
+    color: black;
+}
+a.q::before {
+    content: "\f379";
+    font-family: FontAwesome;
+}
+a.w::before {
+    content: "\f155";
+    font-family: FontAwesome;
+}
+a.e::before {
+    content: "\f153";
+    font-family: FontAwesome;
+}
+a.r::before {
+    content: "\f158";
+    font-family: FontAwesome;
+}
+a.y::before {
+    content: "\f6f2";
+    font-family: FontAwesome;
+}
+a.i::before {
+    content: "\f679";
+    font-family: FontAwesome;
+}
+a.d::before {
+    content: "\f3a5";
+    font-family: FontAwesome;
+}
+a.q:hover::after {
+    content: "\f379";
+    font-family: FontAwesome;
+}
+a.w:hover::after {
+    content: "\f155";
+    font-family: FontAwesome;
+}
+a.e:hover:after {
+    content: "\f153";
+    font-family: FontAwesome;
+}
+a.r:hover::after {
+    content: "\f158";
+    font-family: FontAwesome;
+}
+a.i:hover::after {
+    content: "\f679";
+    font-family: FontAwesome;
+}
+a.y:hover::after {
+    content: "\f6f2";
+    font-family: FontAwesome;
+}
+a.d:hover::after {
+    content: "\f3a5";
+    font-family: FontAwesome;
+}
+.q:hover{
+    font-size: 200%;
+    transition: 1s;
+}
+.w:hover{
+    font-size: 200%;
+    transition: 1s;
+}
+.e:hover{
+    font-size: 200%;
+    transition: 1s;
+}
+.r:hover:visited{
+    font-size: 200%;
+    transition: 1s;
+    color: blueviolet;
+}
+.y:hover:focus{
+    font-size: 200%;
+    transition: 1s;
+}
+.i:hover:enabled{
+    font-size: 200%;
+    transition: 1s;
+}
+.d:hover:checked{
+    font-size: 200%;
+    transition: 1s;
+}
+.r:hover{
+    font-size: 200%;
+    transition: 1s;
+}
+.y:hover{
+    font-size: 200%;
+    transition: 1s;
+}
+.i:hover{
+    font-size: 200%;
+    transition: 1s;
+}
+.d:hover{
+    font-size: 200%;
+    transition: 1s;
+}
